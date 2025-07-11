@@ -193,3 +193,27 @@ nav h2 {
 .reviewer img {
   border-radius: 50%;
 }
+
+
+/* < !--===================Ready to focus==============--> */
+.focus {
+  height: 696px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 71px 150px;
+}
+
+/* .focus-detailes {
+  margin-top: 71px;
+} */
+.focus-sub-header {
+  margin: 20px 0;
+}
+
+.focus img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 48px;
+  width: 840px;
+  height: 365px;
+}
