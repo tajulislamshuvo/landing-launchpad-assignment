@@ -201,6 +201,7 @@ nav h2 {
   text-align: center;
   background-color: #ffffff;
   padding: 71px 150px;
+  border-radius: 10px;
 }
 
 /* .focus-detailes {
@@ -216,4 +217,41 @@ nav h2 {
   border-radius: 48px;
   width: 840px;
   height: 365px;
+}
+
+
+/* ============== form section ============== */
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.form .form-heading {
+  font-size: 97px;
+  font-weight: bold;
+  text-align: left;
+  width: 528px;
+}
+
+form {
+  width: 500px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  display: block;
+  padding: 32px 20px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgb(168, 167, 167);
+  border-radius: 10px;
+  margin: 19px 0;
+}
+
+.form-btn {
+  width: 100%;
 }
