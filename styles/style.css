@@ -204,11 +204,16 @@ nav h2 {
   border-radius: 10px;
 }
 
+.focus-header {
+  font-size: 50px;
+}
+
 /* .focus-detailes {
   margin-top: 71px;
 } */
 .focus-sub-header {
   margin: 20px 0;
+  color: #252432;
 }
 
 .focus img {
@@ -226,7 +231,7 @@ nav h2 {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-
+  margin-bottom: 116px;
 }
 
 .form .form-heading {
@@ -244,14 +249,53 @@ form input,
 form textarea {
   width: 100%;
   display: block;
-  padding: 32px 20px;
+  padding: 30px 20px;
   font-size: 20px;
   font-family: "Inter", sans-serif;
-  border: 1px solid rgb(168, 167, 167);
+  border: 1px solid #D6DDED;
   border-radius: 10px;
   margin: 19px 0;
 }
 
 .form-btn {
   width: 100%;
+}
+
+/* ================ footer ================ */
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  height: 428px;
+  padding: 104px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer-logo {
+  color: #4E47FF;
+  font-size: 100px;
+  margin-bottom: 8px;
+  font-weight: 900;
+}
+
+.footer-description {
+  color: #8987A1;
+  width: 531px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer ul {
+  display: flex;
+  margin: 20px auto;
+  color: #8987A1;
+  gap: 48px;
+}
+
+footer li {
+  list-style: none;
+
 }
