@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* reused */
+.btn {
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  /* width: 132px; */
+  height: 48px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #6c66ff;
+  color: #000000;
+}
+
+section {
+  margin-top: 116px;
+  width: 1140px;
+
+}
+
+/* nav */
+header {
+  height: 680px;
+  width: 100%;
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+}
+
+nav {
+  width: 1140px;
+  height: 151px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 158px;
+}
+
+nav h2 {
+  color: #4E47FF;
+  font-size: 34px;
+}
+
+
+/* Banner */
+.banner {
+  width: 905px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner .banner-title {
+  font-size: 65px;
+  color: #252432;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+
+/* =============== action section ============= */
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.action .action-content .action-heading {
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.action .action-content .action-subheading {
+  color: #2524328c;
+  font-size: 24px;
+  width: 517px;
+  line-height: 1.1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.action .action-bg {
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
